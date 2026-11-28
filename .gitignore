@@ -1,0 +1,61 @@
+# External cloned repositories and large proof verification archives
+external/
+
+# Standalone personal repo checked out inside workspace
+zeta3-closed-form/
+
+# Lean 4 / Lake build outputs & proof exports
+.lake/
+build/
+*.olean
+*.ilean
+*.olean.hash
+*.trace
+*.export
+*.ndjson
+*.ndjson.zst
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Rust / Cargo & C builds
+target/
+*.o
+*.out
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
